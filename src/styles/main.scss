@@ -1,0 +1,27 @@
+@use 'variables' as *;  // Correct reference for src/styles/_variables.scss
+@use 'mixins' as *;     // Correct reference for src/styles/_mixins.scss
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: $bg-color;
+  color: $dark-color;
+}
+
+button {
+  background-color: $primary-color;
+  color: $white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+footer {
+  background-color: $dark-color;
+  color: $white;
+  padding: 10px 0;
+  text-align: center;
+}
