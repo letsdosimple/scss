@@ -1,0 +1,7 @@
+https://sass-lang.com/install/
+Install scss
+npm install -g sass
+=======================================
+compile scss
+sass scss/styles.scss css/styles.css
+=======================================

@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #3498db;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.intro {
+  text-align: center;
+  padding: 1rem 0;
+}
+.intro p {
+  font-size: 1.2rem;
+}
+
+.features h2 {
+  color: #3498db;
+}
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+.features ul li {
+  background: #2ecc71;
+  color: white;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+footer p {
+  margin: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

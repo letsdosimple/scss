@@ -1,0 +1,36 @@
+@use 'variables' as *;
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .intro {
+    text-align: center;
+    padding: 1rem 0;
+  
+    p {
+      font-size: 1.2rem;
+    }
+  }
+  
+  .features {
+    h2 {
+      color: $primary-color;
+    }
+  
+    ul {
+      list-style: none;
+      padding: 0;
+  
+      li {
+        background: $secondary-color;
+        color: white;
+        margin: 0.5rem 0;
+        padding: 0.5rem;
+        border-radius: 5px;
+      }
+    }
+  }
+  
